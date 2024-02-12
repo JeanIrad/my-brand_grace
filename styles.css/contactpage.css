@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: green;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  margin-right: auto;
+}
+.sidebar {
+  background-color: lightgray;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.prof_det {
+  background-color: greenyellow;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+.profile_details {
+  height: 90%;
+  width: 90%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.my_profile {
+  background-color: whitesmoke;
+  height: 85%;
+  width: 100%;
+  border-radius: 8px;
+}
+.my_name {
+  margin-top: 100px;
+}
+.header {
+  background-color: lightgray;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.profile_picture {
+  background-color: lightgray;
+  position: absolute;
+  height: 150px;
+  width: 155px;
+  border-radius: 5px;
+  margin-right: 80px;
+}
+.nav {
+  background-color: lightgray;
+  height: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+.aboutMe {
+  background-color: yellow;
+  height: 80%;
+}
+.nav_container {
+  background-color: brown;
+  height: 87%;
+}
+.logo {
+  background-color: lightgray;
+  height: 12%;
+  opacity: 0.5;
+}
+
+.aboutme_div {
+  background-color: whitesmoke;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.sub_nav {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 25%;
+  height: 49%;
+  justify-content: center;
+}
+.icons {
+  background-color: #e1e8ef;
+  margin: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: x-small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav_container img {
+  display: block;
+  border-radius: 30%;
+  max-height: 200px;
+  width: 15p0x;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav_container h4 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: raleway;
+}
+.nav_container h6 {
+  text-align: center;
+  margin-top: 10px;
+  font-family: raleway;
+}
+.social_media {
+  display: flex;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.socio_icons {
+  background-color: lightgrey;
+  border-radius: 5px;
+  font-size: small;
+  margin-right: 10px;
+}
+.socio_icons object {
+  padding: 10px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.connect {
+  background-color: lightgray;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0;
+  width: 55%;
+}
+
+.span {
+  justify-content: space-between;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-family: raleway;
+
+  .h3 {
+    font-family: raleway;
+  }
+}
+h6 {
+  text-align: center;
+}
+
+.lets_chat {
+  /* background-color: green; */
+  height: 80%;
+}
+.tell_me {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.phone {
+  background-color: #e1e8ef;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+form {
+  margin-top: 20px;
+  margin-left: 6.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  padding: 10px 15px;
+  background-color: #e1e8ef;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0000;
+}
