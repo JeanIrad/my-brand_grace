@@ -243,3 +243,88 @@ button {
 button:hover {
   background-color: #0000;
 }
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .profile_details {
+    align-items: center;
+    text-align: center;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .nav {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sub_nav {
+    width: 100%;
+  }
+
+  .icons {
+    width: 30px;
+    height: 30px;
+  }
+
+  .aboutme_div {
+    width: 100%;
+    margin: 0;
+    margin-top: 5px;
+  }
+
+  .grid_container {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    grid-column: span 1;
+  }
+
+  .my_grid,
+  .centered {
+    width: 100%;
+  }
+
+  .connect {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .portifolio,
+  .porti_part,
+  .my_portifolio,
+  .info_porti {
+    width: 100%;
+  }
+
+  .lets_chat {
+    height: auto;
+  }
+
+  .tell_me {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  form {
+    margin-left: 0;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+  }
+}

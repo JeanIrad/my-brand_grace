@@ -221,3 +221,26 @@ p {
 #phh {
   font-weight: bolder;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .grid_container {
+    grid-template-columns: 1fr;
+  }
+
+  .title {
+    grid-column: span 1;
+  }
+
+  .my_grid, .centered {
+    width: 100%;
+  }
+}
