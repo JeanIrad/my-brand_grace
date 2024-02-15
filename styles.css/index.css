@@ -16,7 +16,7 @@
   flex-direction: column;
 }
 .prof_det {
-  background-color: greenyellow;
+  background-color: lightgray;
   height: 100%;
   display: flex;
   justify-content: end;
@@ -60,7 +60,7 @@
   align-items: end;
 }
 .aboutMe {
-  background-color: yellow;
+  background-color: lightgray;
   height: 80%;
 }
 .nav_container {

@@ -19,7 +19,7 @@
   flex-direction: column;
 }
 .prof_det {
-  background-color: greenyellow;
+  background-color: lightgray;
   height: 100%;
   display: flex;
   justify-content: end;
@@ -64,7 +64,7 @@
   align-items: end;
 }
 .aboutMe {
-  background-color: yellow;
+  background-color: lightgray;
   height: 80%;
 }
 .nav_container {
@@ -170,14 +170,14 @@ h6 {
   text-align: center;
 } /*repeated css*/
 .portifolio {
-  background-color: red;
+  background-color: lightgray;
   height: 100%;
   margin-top: 40px;
   margin-left: 10px;
 }
 
 .porti_part {
-  background-color: palevioletred;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   height: 70%;
@@ -187,7 +187,7 @@ h6 {
 .my_portifolio {
   display: flex;
   justify-content: center;
-  background-color: aqua;
+  background-color: whitesmoke;
   height: 90%;
   width: 80%;
   margin-top: 40px;
@@ -196,7 +196,7 @@ h3 {
   color: gray;
 }
 .info_porti {
-  background: chocolate;
+  background: whitesmoke;
   height: 80%;
   width: 60%;
   margin-right: 10px;

@@ -16,7 +16,7 @@
   flex-direction: column;
 }
 .prof_det {
-  background-color: greenyellow;
+  background-color: lightgray;
   height: 100%;
   display: flex;
   justify-content: end;
