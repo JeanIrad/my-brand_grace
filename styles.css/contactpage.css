@@ -60,8 +60,11 @@
   align-items: end;
 }
 .aboutMe {
-  background-color: yellow;
+  background-color: whitesmoke;
   height: 80%;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 20px;
 }
 .nav_container {
   background-color: brown;
@@ -71,6 +74,7 @@
   background-color: lightgray;
   height: 12%;
   opacity: 0.5;
+  
 }
 
 .aboutme_div {
@@ -83,6 +87,11 @@
   margin-top: 5px;
   border-radius: 8px;
 }
+.aboutme_div h2 {
+  margin-left: 30px;
+  font-family: poppins;
+  padding-top: 10px;
+}
 
 .sub_nav {
   display: flex;
@@ -91,6 +100,7 @@
   width: 25%;
   height: 49%;
   justify-content: center;
+  margin-right: 80px;
 }
 .icons {
   background-color: #e1e8ef;
@@ -104,24 +114,7 @@
   align-items: center;
   flex-direction: column;
 }
-.nav_container img {
-  display: block;
-  border-radius: 30%;
-  max-height: 200px;
-  width: 15p0x;
-  margin-left: auto;
-  margin-right: auto;
-}
-.nav_container h4 {
-  text-align: center;
-  margin-top: 10px;
-  font-family: raleway;
-}
-.nav_container h6 {
-  text-align: center;
-  margin-top: 10px;
-  font-family: raleway;
-}
+
 .social_media {
   display: flex;
   border-radius: 10px;
@@ -167,164 +160,209 @@ h4 {
 }
 h6 {
   text-align: center;
+} /*repeated css*/
+
+.grid_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.title {
+  color: gray;
+  padding: 10px;
+  text-align: center;
+  grid-column: span 2;
+}
+
+.my_grid {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.small {
+  width: 200px;
+  height: 100px;
+}
+
+.centered {
+  text-align: center;
+}
+
+h4 {
+  color: #555;
+}
+
+p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.find_me {
+  display: flex;
+}
+.phone_call {
+  width: 8%;
+  display: flex;
+  align-items: center;
+}
+#phh {
+  font-weight: bolder;
 }
 
 .lets_chat {
-  /* background-color: green; */
-  height: 80%;
-}
-.tell_me {
-  max-width: 600px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-  color: #333;
-}
-
-.contact-info {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-}
-.phone {
-  background-color: #e1e8ef;
-  padding: 10px;
+  background-color: whitesmoke;
+  height: 30%;
   border-radius: 10px;
-  margin-right: 10px;
 }
+
+.contact_me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*Two equal-width columns */
+  gap: 10px;
+  margin-bottom: 20px;
+  height: 60%;
+  background-color: whitesmoke;
+  width: 94%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.talkto_me {
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  padding: 20px;
+
+  background-color: lightgrey;
+}
+
+.contact_us {
+  background-color: lightgray;
+  height: 75%;
+  border-radius: 10px;
+}
+.talkto {
+  background-color: lightgray;
+  height: 85%;
+  border-radius: 10px;
+  margin: 20px;
+}
+h5 {
+  font-family: raleway;
+  font-weight: 300;
+}
+
+.my_form {
+  background-color: lightgray;
+  height: 90%;
+  border-radius: 10px;
+}
+#changes {
+  background-color: lightgray;
+  height: 90%;
+}
+
 form {
-  margin-top: 20px;
-  margin-left: 6.5rem;
+  background-color: whitesmoke;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 500px;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  border-radius: 0;
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
   box-sizing: border-box;
-  outline: none;
+  border: 0px solid grey;
+  border-width: 0px 0px 1px 0px;
+  color: gray;
+  background-color: lightgray;
 }
-
-textarea {
-  resize: vertical;
-}
-
-textarea {
-  resize: vertical;
-}
-
 button {
-  display: block;
-  padding: 10px 15px;
-  background-color: #e1e8ef;
-  color: #000;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
+  margin: 10px;
+  border-color: grey;
+  border-radius: 15px;
+  padding: 5px;
+  width: 90px;
+  background-color: lightgrey;
+}
+small {
+  font-weight: 100;
 }
 
-button:hover {
-  background-color: #0000;
-}
 /* Responsive styles */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
   }
 
-  .sidebar {
-    width: 100%;
-  }
-
-  .profile_details {
-    align-items: center;
-    text-align: center;
-  }
-
+  .sidebar,
   .header {
     width: 100%;
   }
 
+  .prof_det,
+  .profile_details,
+  .my_profile {
+    height: auto;
+  }
+
   .nav {
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
 
   .sub_nav {
     width: 100%;
+    margin-right: 0;
   }
 
   .icons {
+    margin: 8px;
     width: 30px;
     height: 30px;
+    font-size: x-small;
   }
 
+  .aboutMe,
   .aboutme_div {
+    height: auto;
     width: 100%;
-    margin: 0;
-    margin-top: 5px;
+    margin-left: 0;
   }
 
   .grid_container {
     grid-template-columns: 1fr;
-  }
-
-  .title {
-    grid-column: span 1;
-  }
-
-  .my_grid,
-  .centered {
-    width: 100%;
-  }
-
-  .connect {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .portifolio,
-  .porti_part,
-  .my_portifolio,
-  .info_porti {
-    width: 100%;
-  }
-
-  .lets_chat {
-    height: auto;
-  }
-
-  .tell_me {
-    max-width: 100%;
-    margin: 50px auto;
-    padding: 20px;
-  }
-
-  form {
+    gap: 10px;
     margin-left: 0;
   }
 
-  input[type="text"],
-  input[type="email"],
-  textarea {
+  .my_grid {
+    grid-template-columns: 1fr;
+    padding: 15px;
+  }
+
+  .lets_chat,
+  .contact_me,
+  .contact_us,
+  .talkto,
+  .my_form,
+  #changes {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .find_me,
+  .phone_call,
+  .social_media,
+  .socio_icons {
+    margin-right: 0;
   }
 }

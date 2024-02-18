@@ -91,6 +91,7 @@
   width: 25%;
   height: 49%;
   justify-content: center;
+  margin-right: 80px;
 }
 .icons {
   background-color: #e1e8ef;
@@ -104,6 +105,7 @@
   align-items: center;
   flex-direction: column;
 }
+/*  
 .nav_container img {
   display: block;
   border-radius: 30%;
@@ -121,7 +123,7 @@
   text-align: center;
   margin-top: 10px;
   font-family: raleway;
-}
+}*/
 .social_media {
   display: flex;
   border-radius: 10px;
@@ -178,7 +180,6 @@ h6 {
 }
 
 .title {
-  
   color: gray;
   padding: 10px;
   text-align: center;
@@ -197,7 +198,6 @@ h6 {
 }
 
 .centered {
-  
   text-align: center;
 }
 
@@ -223,13 +223,46 @@ p {
 }
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
   .container {
     flex-direction: column;
   }
 
   .sidebar {
     width: 100%;
+  }
+
+  .prof_det,
+  .profile_details,
+  .my_profile {
+    height: auto;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub_nav {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .icons {
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    font-size: x-small;
+  }
+
+  .aboutMe,
+  .aboutme_div {
+    height: auto;
   }
 
   .grid_container {
@@ -240,7 +273,15 @@ p {
     grid-column: span 1;
   }
 
-  .my_grid, .centered {
+  .my_grid {
+    width: 100%;
+  }
+
+  .centered {
+    text-align: left;
+  }
+
+  .connect {
     width: 100%;
   }
 }
