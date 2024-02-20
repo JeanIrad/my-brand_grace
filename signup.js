@@ -1,31 +1,38 @@
-// document.addEventListener("DOMContentLoaded", function () {
-  // var form = document.querySelector("form");
-
-  // form.addEventListener("submit", function (event) {
-   const nameField = document.getElementById('Username');
-const myname= document.getElementById('name'); 
- const myEmail= document.getElementById('email');
-const mypassword=document.getElementById('password');
-const myPara=document.getElementById('hello');
-myButton.addEventListener('click',(event)=> {
-       myPara.innerHTML="";
-       event.preventDefault();
-        console.log("this is my name ",nameField.value);
-       console.log(" mypassword",mypassword.value);
-        console.log(" user-email",myEmail.value);
-        console.log("myParagraph", myPara.value);
-       if(nameField.value.length===0)
-       {
-          myPara.innerHTML="name can not be empty";    
-       }
-           if(myEmail.value.length===0)
-       {
-          myPara.innerHTML="Email can not be empty";    
-       }
-
-        localStorage.setItem('Username', nameField.value);
-           localStorage.setItem("name", myName.value);
-           localStorage.setItem("email", myEmail.value);
-           
-              localStorage.setItem("password", myPassword.value);     
+document.addEventListener("DOMContentLoaded", function () {
+  document
+    .getElementById("changes")
+    .addEventListener("submit", handleFormSubmit);
 });
+
+function handleFormSubmit(event) {
+  event.preventDefault();
+
+  var myName = document.getElementById("name").value;
+  var myEmail = document.getElementById("email").value;
+  var ypassword = document.getElementById("password").value;
+  var yconfirmPassword = document.getElementById("verifypassword").value;
+
+  if (!myName || !myEmail || !ypassword || !yconfirmPassword) {
+    alert("Please fill in all fields.");
+    return;
+  }
+
+  if (ypassword !== yconfirmPassword) {
+    alert("Passwords do not match. Please try again.");
+    return;
+  }
+  // If validations pass, store data in local storage
+  addUser(myName, myEmail, ypassword);
+
+  // You can redirect to another page or perform other actions after successful form submission
+  alert("Signup successful!");
+  // Redirect to login page or any other desired action
+  window.location.href = "index.html";
+}
+
+// Function to add a user to local storage
+function addUser(name, email, password) {
+  var users = JSON.parse(localStorage.getItem("users")) || [];
+  users.push({ myName: name, myEmail: email, ypassword: password });
+  localStorage.setItem("users", JSON.stringify(users));
+}

@@ -3,20 +3,20 @@
   padding: 0;
 }
 .container {
-  background-color: green;
+  background-color: #e9d7ff;
   height: 100vh;
   width: 100%;
   display: flex;
   margin-right: auto;
 }
 .sidebar {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 .prof_det {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 100%;
   display: flex;
   justify-content: end;
@@ -24,7 +24,7 @@
 .profile_details {
   height: 90%;
   width: 90%;
-  background-color: lightgray;
+  background-color: #e9d7ff;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -39,28 +39,29 @@
   margin-top: 100px;
 }
 .header {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 70%;
   display: flex;
   flex-direction: column;
 }
 .profile_picture {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   position: absolute;
   height: 150px;
   width: 155px;
   border-radius: 5px;
   margin-right: 80px;
+  object-fit: cover;
 }
 .nav {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 20%;
   display: flex;
   justify-content: end;
   align-items: end;
 }
 .aboutMe {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 80%;
 }
 .nav_container {
@@ -68,7 +69,9 @@
   height: 87%;
 }
 .logo {
-  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9d7ff;
   height: 12%;
   opacity: 0.5;
 }
@@ -79,9 +82,12 @@
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 30px;
   margin-top: 5px;
   border-radius: 8px;
+  line-height: 1.4;
+  padding-top: 10px;
+  padding-left: 29px;
 }
 
 .sub_nav {
@@ -90,11 +96,11 @@
   border: 1px solid gray;
   width: 25%;
   height: 49%;
-  justify-content: center;
-  margin-right: 80px;
+  justify-content: end;
+  margin-bottom: 50px;
 }
 .icons {
-  background-color: #e1e8ef;
+  background-color: whitesmoke;
   margin: 8px;
   width: 40px;
   height: 40px;
@@ -132,7 +138,7 @@
   margin-top: 5px;
 }
 .socio_icons {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   border-radius: 5px;
   font-size: small;
   margin-right: 10px;
@@ -147,7 +153,7 @@
 }
 
 .connect {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   border-color: whitesmoke;
   border-radius: 10px;
   padding: 10px;
@@ -180,17 +186,18 @@ h6 {
 }
 
 .title {
-  color: gray;
+  color: #0d0c22;
   padding: 10px;
   text-align: center;
   grid-column: span 2;
 }
 
 .my_grid {
-  background-color: #ecf0f1;
+  background-color: whitesmoke;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  margin-left: 40px;
 }
 .small {
   width: 200px;
@@ -202,11 +209,11 @@ h6 {
 }
 
 h4 {
-  color: #555;
+  color: #0d0c22;
 }
 
 p {
-  color: #555;
+  color: #0d0c22;
   line-height: 1.6;
 }
 
@@ -214,7 +221,7 @@ p {
   display: flex;
 }
 .phone_call {
-  width: 8%;
+  width: 10%;
   display: flex;
   align-items: center;
 }
@@ -237,6 +244,7 @@ p {
   .profile_details,
   .my_profile {
     height: auto;
+    object-fit: cover;
   }
 
   .header {

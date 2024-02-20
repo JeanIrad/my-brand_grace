@@ -3,28 +3,29 @@
   padding: 0;
 }
 .container {
-  background-color: green;
+  background-color: #e9d7ff;
   height: 100vh;
   width: 100%;
   display: flex;
   margin-right: auto;
 }
 .sidebar {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 .prof_det {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 100%;
   display: flex;
   justify-content: end;
+  margin-left: 30px;
 }
 .profile_details {
   height: 90%;
   width: 90%;
-  background-color: lightgray;
+  background-color: #e9d7ff;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -37,38 +38,41 @@
 }
 .my_name {
   margin-top: 100px;
+  text-align: center;
 }
 .header {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 70%;
   display: flex;
   flex-direction: column;
 }
 .profile_picture {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   position: absolute;
   height: 150px;
   width: 155px;
   border-radius: 5px;
   margin-right: 80px;
+  object-fit: cover;
 }
 .nav {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 20%;
   display: flex;
   justify-content: end;
   align-items: end;
 }
 .aboutMe {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 80%;
+  margin-left: 40px;
 }
 .nav_container {
   background-color: brown;
   height: 87%;
 }
 .logo {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 12%;
   opacity: 0.5;
 }
@@ -80,10 +84,9 @@
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 25px;
   margin-top: 5px;
   border-radius: 8px;
-
 }
 
 .sub_nav {
@@ -92,11 +95,11 @@
   border: 1px solid gray;
   width: 25%;
   height: 49%;
-  justify-content: center;
-  margin-right: 80px;
+  justify-content: end;
+  margin-bottom: 50px;
 }
 .icons {
-  background-color: #e1e8ef;
+  background-color: whitesmoke;
   margin: 8px;
   width: 40px;
   height: 40px;
@@ -133,7 +136,7 @@
   margin-top: 5px;
 }
 .socio_icons {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   border-radius: 5px;
   font-size: small;
   margin-right: 10px;
@@ -148,7 +151,7 @@
 }
 
 .connect {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   border-color: whitesmoke;
   border-radius: 10px;
   padding: 10px;
@@ -183,12 +186,12 @@ h6 {
 }
 
 .title {
-  color: gray;
+  color: #0d0c22;
   padding: 10px;
   text-align: center;
   grid-column: span 2;
 }
-.div_container{
+.div_container {
   background-color: red;
   height: 80%;
   width: 80%;
@@ -199,28 +202,30 @@ h6 {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   margin-bottom: 40px;
 }
-.one_div{
-  background-color: #F8FBFB;
+.one_div {
+  background-color: #f9f6ff;
   display: flex;
-  border-radius: 0%;
-   /* float: left;
+
+  /* border-radius: 0%; */
+  /* float: left;
   width: calc(var(--main-width) / 2);
   height: 200px; */
- 
-
 }
+/* .experience{
+  margin-right: 70px;
+} */
 .small {
   width: 200px;
   height: 100px;
-  background-color: #f8fbfb;
-  
-  
-
+  background-color: #e9d7ff;
+  margin-left: 70px;
+  margin-top: 20px;
+  /* margin-right: 30px; */
 }
 
 .centered {
@@ -228,11 +233,12 @@ h6 {
 }
 
 h4 {
-  color: #555;
+  color: #0d0c22;
+  /* text-align: center; */
 }
 
 p {
-  color: #555;
+  color: #0d0c22;
   line-height: 1.6;
 }
 
@@ -248,8 +254,7 @@ p {
   font-weight: bolder;
 }
 
- /* Responsive styles  */
-
+/* Responsive styles  */
 
 @media only screen and (max-width: 768px) {
   .container {
@@ -277,19 +282,23 @@ p {
 
   .sub_nav {
     width: 100%;
-    margin-right: 0;
+    align-items: end;
+
   }
 
   .icons {
-    margin: 8px;
+    margin:8px;
     width: 30px;
     height: 30px;
     font-size: x-small;
   }
 
-  .aboutMe,
-  .aboutme_div {
+  .aboutMe {
     height: auto;
+  }
+
+  .aboutme_div {
+    margin-left: 30px;
   }
 
   .grid_container {
@@ -319,4 +328,4 @@ p {
   .connect {
     width: 100%;
   }
-} 
+}

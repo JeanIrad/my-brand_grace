@@ -10,21 +10,22 @@
   margin-right: auto;
 }
 .sidebar {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 .prof_det {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 100%;
   display: flex;
   justify-content: end;
+  margin-left: 50px;
 }
 .profile_details {
   height: 90%;
   width: 90%;
-  background-color: lightgray;
+  background-color: #e9d7ff;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -39,21 +40,22 @@
   margin-top: 100px;
 }
 .header {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 70%;
   display: flex;
   flex-direction: column;
 }
 .profile_picture {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   position: absolute;
   height: 150px;
   width: 155px;
   border-radius: 5px;
   margin-right: 80px;
+  object-fit: cover;
 }
 .nav {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 20%;
   display: flex;
   justify-content: end;
@@ -64,17 +66,16 @@
   height: 80%;
   border-radius: 20px;
   width: 80%;
-  margin-left: 20px;
+  margin-left: 90px;
 }
 .nav_container {
   background-color: brown;
   height: 87%;
 }
 .logo {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 12%;
   opacity: 0.5;
-  
 }
 
 .aboutme_div {
@@ -83,13 +84,13 @@
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 35px;
   margin-top: 5px;
   border-radius: 8px;
 }
 .aboutme_div h2 {
   margin-left: 30px;
-  font-family: poppins;
+  font-family: raleway;
   padding-top: 10px;
 }
 
@@ -99,11 +100,11 @@
   border: 1px solid gray;
   width: 25%;
   height: 49%;
-  justify-content: center;
-  margin-right: 80px;
+   justify-content: end; 
+   margin-bottom: 50px; 
 }
 .icons {
-  background-color: #e1e8ef;
+  background-color: whitesmoke;
   margin: 8px;
   width: 40px;
   height: 40px;
@@ -123,7 +124,7 @@
   margin-top: 5px;
 }
 .socio_icons {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   border-radius: 5px;
   font-size: small;
   margin-right: 10px;
@@ -138,7 +139,7 @@
 }
 
 .connect {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   border-color: whitesmoke;
   border-radius: 10px;
   padding: 10px;
@@ -171,7 +172,7 @@ h6 {
 }
 
 .title {
-  color: gray;
+  color: #e9d7ff;
   padding: 10px;
   text-align: center;
   grid-column: span 2;
@@ -193,11 +194,11 @@ h6 {
 }
 
 h4 {
-  color: #555;
+  color: #0d0c22;
 }
 
 p {
-  color: #555;
+  color: #0d0c22;
   line-height: 1.6;
 }
 
@@ -241,16 +242,16 @@ p {
   border: 1px solid #ccc;
   padding: 20px;
 
-  background-color: lightgrey;
+  background-color: #e9d7ff;
 }
 
 .contact_us {
-  background-color: lightgray;
+  background-color: whitesmoke;
   height: 75%;
   border-radius: 10px;
 }
 .talkto {
-  background-color: lightgray;
+  background-color: whitesmoke;
   height: 85%;
   border-radius: 10px;
   margin: 20px;
@@ -261,12 +262,12 @@ h5 {
 }
 
 .my_form {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 90%;
   border-radius: 10px;
 }
 #changes {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 90%;
 }
 
@@ -279,18 +280,18 @@ input {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 0px solid grey;
+  border: 0px solid #e9d7ff;
   border-width: 0px 0px 1px 0px;
-  color: gray;
-  background-color: lightgray;
+  color: #0d0c22;
+  background-color: #e9d7ff;
 }
 button {
   margin: 10px;
-  border-color: grey;
+  border-color: #0d0c22;
   border-radius: 15px;
   padding: 5px;
   width: 90px;
-  background-color: lightgrey;
+  background-color: #e9d7ff;
 }
 small {
   font-weight: 100;
@@ -334,7 +335,7 @@ small {
   .aboutme_div {
     height: auto;
     width: 100%;
-    margin-left: 0;
+    margin-left: auto;
   }
 
   .grid_container {

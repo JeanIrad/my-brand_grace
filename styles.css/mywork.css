@@ -10,13 +10,13 @@
   margin-right: auto;
 }
 .sidebar {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 30%;
   display: flex;
   flex-direction: column;
 }
 .prof_det {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 100%;
   display: flex;
   justify-content: end;
@@ -24,7 +24,7 @@
 .profile_details {
   height: 90%;
   width: 90%;
-  background-color: lightgray;
+  background-color: #e9d7ff;
   display: flex;
   justify-content: center;
   align-items: end;
@@ -39,28 +39,29 @@
   margin-top: 100px;
 }
 .header {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   width: 70%;
   display: flex;
   flex-direction: column;
 }
 .profile_picture {
-  background-color: lightgray;
+ background-color: #e9d7ff;
   position: absolute;
   height: 150px;
   width: 155px;
   border-radius: 5px;
   margin-right: 80px;
+  object-fit: cover;
 }
 .nav {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 20%;
   display: flex;
   justify-content: end;
   align-items: end;
 }
 .aboutMe {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 80%;
 }
 .nav_container {
@@ -68,7 +69,7 @@
   height: 87%;
 }
 .logo {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   height: 12%;
   opacity: 0.5;
 }
@@ -79,7 +80,7 @@
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 40px;
   margin-top: 5px;
   border-radius: 8px;
 }
@@ -98,7 +99,7 @@
   margin-right: 80px;
 }
 .icons {
-  background-color: #e1e8ef;
+  background-color: whitesmoke;
   margin: 8px;
   width: 40px;
   height: 40px;
@@ -136,7 +137,7 @@
   margin-top: 5px;
 }
 .socio_icons {
-  background-color: lightgrey;
+  background-color:whitesmoke;
   border-radius: 5px;
   font-size: small;
   margin-right: 10px;
@@ -151,7 +152,7 @@
 }
 
 .connect {
-  background-color: lightgray;
+  background-color: #e9d7ff;
   border-color: whitesmoke;
   border-radius: 10px;
   padding: 10px;
@@ -161,12 +162,12 @@
 
 span {
   font-size: xx-large;
-  color: black;
+  color: #0d0c22 ;
   margin-right: 310px;
 
 }
 strong{
-  color: black;
+  color: #0d0c22 ;
 }
 h4 {
   text-align: center;
@@ -189,7 +190,7 @@ h6 {
 }
 
 .title {
-  color: gray;
+  color: #0d0c22 ;
   padding: 10px;
   text-align: center;
   grid-column: span 2;
@@ -197,9 +198,9 @@ h6 {
 
 .my_grid {
   background-color: #ecf0f1;
-  padding: 20px;
+  padding:20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px #0d0c22 ;
 }
 small {
   /* width: 200px; */
@@ -212,12 +213,12 @@ small {
 }
 
 h2 {
-  color: #555;
+  color: #0d0c22 ;
   margin-right: 40px;
 }
 
 p {
-  color: #555;
+  color: #0d0c22 ;
   line-height: 1.6;
 }
 
@@ -256,8 +257,13 @@ p {
   }
 
   .sub_nav {
-    width: 100%;
-    margin-right: 0;
+    display: flex;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 25%;
+  height: 49%;
+   justify-content:end; 
+   margin-bottom:40px; 
   }
 
   .icons {
